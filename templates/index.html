@@ -3,6 +3,8 @@
         <link rel="stylesheet" href={{ url_for("static", filename="style.css") }} />
     </head>
     <body>
+        {%for i in range(0, length)%}
         <img src="/static/juicebox" />
+        {%endfor%}
     </body>
 </html>
